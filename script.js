@@ -155,19 +155,7 @@ const _slideLima = function () {
     slideLima.classList.add('animate__delay-3s')
     slideLima.classList.replace('animate__bounceIn', 'animate__fadeOut');
     trims.classList.add('animate__animated', 'animate__fadeOut', 'animate__delay-3s');
-    setTimeout(() => {
-      trims.remove();
-      setTimeout(() => {
-        slideLima.remove();
-        _slideEnam();
-      }, 1000);
-    }, 6000);
   });
-};
-
-const _slideEnam = function () {
-  const slideEnam = document.getElementById('slideEnam');
-  slideEnam.classList.remove('d-none');
 };
 
 
