@@ -13,6 +13,7 @@ const second = 1000,
   hour = minute * 60,
   day = hour * 24;
 let time = `$bln $tgl, $thn 00:00:00`;
+alert(time);
 let countDown = new Date(time).getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
