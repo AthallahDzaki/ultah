@@ -37,8 +37,8 @@ let countDown = new Date(time).getTime(),
     let now = new Date().getTime(),
       distance = countDown - now;
 
-    // document.getElementById('days').innerText = Math.floor(distance / (day)),
-    document.getElementById('hours').innerText = Math.floor(distance / (hour)),
+    document.getElementById('days').innerText = Math.floor(distance / (day)),
+    document.getElementById('hours').innerText = Math.floor(distance % (hour) / (day)),
     document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
     document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
@@ -150,12 +150,6 @@ const _slideLima = function () {
   setTimeout(() => {
     trims.classList.remove('d-none');
   }, 1000);
-
-  slideLima.addEventListener('animationend', () => {
-    slideLima.classList.add('animate__delay-3s')
-    slideLima.classList.replace('animate__bounceIn', 'animate__fadeOut');
-    trims.classList.add('animate__animated', 'animate__fadeOut', 'animate__delay-3s');
-  });
 };
 
 
