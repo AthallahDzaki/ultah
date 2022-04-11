@@ -154,14 +154,14 @@ const _slideLima = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Assalamualaikum Wr. Wb", " ", `Saya ${a[0]} pada hari ${timestring} dengan sepenuh hati mengucapkan, ~ `, "<b>Selamat Ulang Tahun</b>", " ", `Kepada ${a[1]}, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya`, , " ", "Wassalamualakaikum Wr. Wb", " ", "- "+a[0]],
+  strings: ["Elloww bayicuu ini clara editt dari 11/4", " ", `hihi ${a[0]} hari ini ${timestring} i mau ucapinn ke ksyanganku ini, ~ `, "<b> Happy birthdayy </b>", " ", `untuk ${a[1]}, semoga nijar panjang umur, jgn bosen yaa sma clara Lvyuu<3`, , " ", "Lanjut yaa", " ", "- "+a[0]],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Haii Sayang!!", "Happy Birthday ya..", " ", "Ciie udah bertambah tua aja, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin."],
+  strings: ["Haii Sayang!!", "Happy Birthday ya..", " ", "Ciie udah nmbah tua lagii, semoga di umur yang sekarang nijar bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sabar, dan lebih berbakti.", "Corii ya clara cuma ngasi inii moga nijar sukaa<3", "Sekali lagi, pibesdeyy>< . Semoga semua impian, keinginan, dan harapan nijar bisa tercapai.Clara syg nijarr 🥺💖"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
@@ -169,7 +169,7 @@ new TypeIt("#teks2", {
 
 
 new TypeIt("#trims", {
-  strings: ["Terimakasih."],
+  strings: ["Arigatoo, Ly sayangg."],
   startDelay: 2000,
   speed: 150,
   loop: false,
