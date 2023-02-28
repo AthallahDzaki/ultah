@@ -16,7 +16,7 @@ let a = {
 }
 
 let m = 0;
-if(a[0] == null)a[0] = "Athallah Dzaki";
+if(a[0] == null)a[0] ="Erico Anggoro";
 if(a[1] == null)alert("Need Parameter To"), m =1;
 if(a[2] == null)alert("Need Parameter bln"), m=1;
 if(a[3] == null)alert("Need Parameter tgl"), m=1;
@@ -154,14 +154,14 @@ const _slideLima = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Assalamualaikum Wr. Wb", " ", `Saya ${a[0]} pada hari ${timestring} dengan sepenuh hati mengucapkan, ~ `, "<b>Selamat Ulang Tahun</b>", " ", `Kepada ${a[1]}, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya`, , " ", "Wassalamualakaikum Wr. Wb", " ", "- "+a[0]],
+  strings: ["Assalamualaikum Wr. Wb", " ", `Saya Erico Anggoro pada hari Rabu, 1 Maret dengan sepenuh hati mengucapkan, ~ `, "<b>Selamat Ulang Tahun</b>", " ", `Kepada Sri Purwati, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya`, , " ", "Wassalamualakaikum Wr. Wb", " ", "- "Erico,
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Haii Sayang!!", "Happy Birthday ya..", " ", "Ciie udah bertambah tua aja, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin."],
+  strings: ["Haii Sayang!!", "Happy Birthday ya Sayang", " ", "Ciie udah bertambah tua aja, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin."],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
